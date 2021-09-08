@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPatientFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/teal_200"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/PatientTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize = "30dp"
+            android:text="Patient Database" />
+
+        <EditText
+            android:id="@+id/patientId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="Id" />
+
+        <EditText
+            android:id="@+id/patientfirstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="First Name" />
+
+        <EditText
+            android:id="@+id/patientlastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Last Name" />
+
+        <EditText
+            android:id="@+id/patientdepartment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Department" />
+
+        <EditText
+            android:id="@+id/nurseId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="Nurse ID" />
+
+        <EditText
+            android:id="@+id/patientroom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="Room#" />
+
+        <Button
+            android:id="@+id/savePatient"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:textSize = "25dp"
+            android:text="Add Patient" />
+    </LinearLayout>
+</FrameLayout>

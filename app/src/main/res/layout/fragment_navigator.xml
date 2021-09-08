@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NavigatorFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        android:background="@color/teal_200"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="382dp">
+
+        <TextView
+            android:id="@+id/navView"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:textSize = "40dp"
+            android:textAlignment="center"
+            android:text="@string/title_activity_hospital_navigator" />
+
+        <Button
+            android:id="@+id/bn_nav_addview"
+            android:layout_width="match_parent"
+            android:layout_height="107dp"
+            android:text="@string/nav_patientaddview"
+            android:textSize="22dp" />
+
+        <Button
+            android:id="@+id/bn_nav_addtest"
+            android:layout_width="match_parent"
+            android:layout_height="107dp"
+            android:textSize = "22dp"
+            android:text="@string/nav_addtest" />
+
+        <Button
+            android:id="@+id/bn_nav_viewtest"
+            android:layout_width="match_parent"
+            android:layout_height="107dp"
+            android:textSize = "22dp"
+            android:text="@string/nav_viewtest" />
+
+        <Button
+            android:id="@+id/bn_nav_updatepatient"
+            android:layout_width="match_parent"
+            android:layout_height="107dp"
+            android:textSize = "22dp"
+            android:text="UPDATE PATIENT" />
+
+        <Button
+            android:id="@+id/bn_nav_logout"
+            android:layout_width="match_parent"
+            android:textSize = "22dp"
+            android:layout_height="107dp"
+            android:text="@string/nav_logout" />
+    </LinearLayout>
+
+</FrameLayout>

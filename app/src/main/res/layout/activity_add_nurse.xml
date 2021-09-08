@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNurse">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/teal_200"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nursetextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize = "30dp"
+            android:background="@color/teal_700"
+            android:textAlignment="center"
+            android:text="Create Nurse Account" />
+
+        <EditText
+            android:id="@+id/nurseId3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="ID" />
+
+        <EditText
+            android:id="@+id/nurstfirstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="First Name" />
+
+        <EditText
+            android:id="@+id/nurselastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Last Name" />
+
+        <EditText
+            android:id="@+id/nursedepartment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Database" />
+
+        <EditText
+            android:id="@+id/nursepassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Password" />
+
+        <Button
+            android:id="@+id/bn_create_nurseaccount"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:textSize = "25dp"
+            android:text="CREATE" />
+
+
+    </LinearLayout>
+</FrameLayout>

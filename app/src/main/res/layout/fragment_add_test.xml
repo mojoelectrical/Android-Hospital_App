@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddTestFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/teal_200"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/TestTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize = "30dp"
+            android:text="Test Database" />
+
+        <EditText
+            android:id="@+id/testId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="Test ID" />
+
+        <EditText
+            android:id="@+id/patientId2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="Patient ID" />
+
+        <EditText
+            android:id="@+id/nurseId2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="Nurse ID" />
+
+        <EditText
+            android:id="@+id/BPL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="BPL: true or false" />
+
+        <EditText
+            android:id="@+id/BPH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="BPH: true or false" />
+
+        <EditText
+            android:id="@+id/temperature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:hint="Temperature" />
+
+        <Button
+            android:id="@+id/bn_addTest"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:textSize = "25dp"
+            android:text="Add Test" />
+    </LinearLayout>
+</FrameLayout>
